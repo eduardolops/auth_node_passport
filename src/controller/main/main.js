@@ -1,3 +1,4 @@
 module.exports = (req, res) => {
-   return res.json({ msg: 'Hello from Express' })
+  //  return res.json({ msg: 'Hello from Express' })
+  return res.render('main/index')
 }
